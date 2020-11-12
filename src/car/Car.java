@@ -6,14 +6,17 @@ public class Car {
 
     private int id;
 
+    private int repairPrice;
+
     private int cost;
 
     private boolean sold;
 
-    public Car(int id, int cost) {
+    public Car(int id, int cost, int repairPrice) {
         this.id = id;
         this.cost = cost;
         this.sold = false;
+        this.repairPrice = repairPrice;
     }
 
     public void sell() {

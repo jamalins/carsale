@@ -39,4 +39,8 @@ public class Dealership {
 
         return Invoice.forSoldCar(carToSell);
     }
+
+    public Invoice repair ( Car car ) throws DealershipException{
+        return null;
+    }
 }
